@@ -45,7 +45,7 @@ function checkAnswer(currentLevel) {
     setTimeout(() => {
       $("body").removeClass("game-over");
     }, 200);
-    $("#level-title").text("게임종료! 다시 시작하려면 아무 키나 일단 눌러~");
+    $("#level-title").text("게임종료! 다시 시작하려면 게임시작 버튼!");
     startOver();
   }
 }
