@@ -58,4 +58,20 @@ body {
   background-color: rgb(55, 202, 50);
   color: #fff;
   font-family: "Sunflower", sans-serif;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.rules-container {
+  margin-bottom: 70px;
+}
+
+.rules-title {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: red;
+}
+
+.rules {
+  color: rgb(255, 236, 65);
+  font-size: 20px;
 }
