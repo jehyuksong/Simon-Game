@@ -1,10 +1,10 @@
 body {
   text-align: center;
   background-color: #011f3f;
+  font-family: "Sunflower", sans-serif;
 }
 
 #level-title {
-  font-family: "Press Start 2P", cursive;
   font-size: 3rem;
   margin: 5%;
   color: #fef2bf;
@@ -12,7 +12,7 @@ body {
 
 .container {
   display: block;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
@@ -49,4 +49,13 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.game-start {
+  width: 300px;
+  font-size: 50px;
+  margin: 40px;
+  background-color: rgb(55, 202, 50);
+  color: #fff;
+  font-family: "Sunflower", sans-serif;
 }

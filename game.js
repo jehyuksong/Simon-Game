@@ -56,7 +56,7 @@ function startOver() {
   started = false;
 }
 
-$(document).keypress(function () {
+$(".game-start").click(function () {
   if (started === false) {
     nextSequence();
     started = true;
